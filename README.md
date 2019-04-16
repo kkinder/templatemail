@@ -42,7 +42,7 @@ It's that simple.
 
 ## Installation
 
-```pip install templatemail`
+```pip install templatemail```
 
 ## Usage
 
