@@ -32,6 +32,7 @@ Welcome to our system, {{ user_name }}
 --------------------------------------------
 
 We think you'll really enjoy it here.
+{% endblock %}
 ```
 
 You have full use of jinja2 functionality, including inheritance, and HTML/Text content is rendered in separate blocks. (Note that you can leave either blank and it will be sent as either an HTML-only email or a text-only email.)
