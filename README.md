@@ -1,6 +1,6 @@
 # Welcome to TemplateMail
 
-TemplateMail is a simple Python library for sending emails using a templating language you already know: Jinaj2. It includes by default a Mailgun backend for easy delivery, along with example responsive templates based on [Mailgun Responsive Templates](https://github.com/mailgun/transactional-email-templates).
+TemplateMail is a simple Python library for sending emails using a templating language you already know: Jinja2. It includes by default a Mailgun backend for easy delivery, along with example responsive templates based on [Mailgun Responsive Templates](https://github.com/mailgun/transactional-email-templates).
 
 You can get started sending email within your project this easily:
 
