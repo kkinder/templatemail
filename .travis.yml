@@ -5,6 +5,6 @@ install:
   - 'pip install pipenv'
   - 'pipenv sync'
 
-script: 'python -m pytest --cov=pyblizzard t-ests --cov-report=xml'
+script: 'python -m pytest --cov=pyblizzard tests --cov-report=xml'
 after_success:
   - 'python-codacy-coverage -r coverage.xml'
