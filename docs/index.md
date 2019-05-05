@@ -1,7 +1,5 @@
 ![Build Status](https://travis-ci.org/kkinder/templatemail.svg?branch=master)
 
-![Build Status](https://travis-ci.org/kkinder/templatemail.svg?branch=master)
-
 # Welcome to TemplateMail
 
 TemplateMail is a simple Python library that solves most projects' email templating and delivery needs with minimal hassle. Suppose you want to send a welcome email to a new user using Mailgun:
@@ -61,17 +59,3 @@ You can install templatemail like any other Python module.
 ```pip install templatemail```
 
 **NOTE**: Only Python 3 is supported.
-
-## Read More
-
-[Read the documentation online](https://templatemail.readthedocs.io/en/latest/) at Read The Docs.
-
-## Get in touch
-Have a pull request or an issue? [Use Github](https://github.com/kkinder/templatemail).
-
-## Legal stuff
-© Copyright 2019 Ken Kinder. Includes work from Mailgun, which is © Copyright 2014 Mailgun.
-
-TemplateMail is licensed under the Apache 2.0 license. See LICENSE for details.
-
-Includes templates from the Mailgun Responsive Templates repository. See LICENSE-mailgun-templates for details on its license.

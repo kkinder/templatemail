@@ -7,7 +7,6 @@ from collections import namedtuple
 from typing import List
 
 import jinja2
-import requests
 
 RenderedResult = namedtuple('RenderedResult', ('subject', 'text_body', 'html_body'))
 _dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -29,31 +28,6 @@ class DeliveryNotMade(Exception):
         self.response = response
 
 
-class MailgunDeliveryEngine:
-    def __init__(self, api_key, domain_name):
-        self.api_key = api_key
-        self.domain_name = domain_name
-        self._requests = requests
-
-    def send_simple_message(self, from_address: str, to_addresses: List[str], subject: str, text_body: str,
-                            html_body: str):
-        data = {"from":    from_address,
-                "to":      to_addresses,
-                "subject": subject}
-        if text_body:
-            data['text'] = text_body.strip()
-        if html_body:
-            data['html'] = html_body.strip()
-        response = self._requests.post(
-            f"https://api.mailgun.net/v3/{self.domain_name}/messages",
-            auth=("api", self.api_key),
-            data=data
-        )
-        if response.status_code < 200 or response.status_code > 299:
-            raise DeliveryNotMade(details=f"Got unexpected status from mailgun: {response.status_code}",
-                                  response=response)
-
-
 class TemplateMail:
     def __init__(self, template_dirs: List[str] = None, delivery_engine=None, logger=None):
         """
@@ -69,7 +43,7 @@ class TemplateMail:
             loader=jinja2.FileSystemLoader(_template_dirs)
         )
 
-        self.delivery_engine = delivery_engine  # type: MailgunDeliveryEngine
+        self.delivery_engine = delivery_engine
 
         self.logger = logger or logging.getLogger('templatemail')
 
@@ -112,4 +86,4 @@ class TemplateMail:
         self.logger.info(f'{prefix}Sending {template_name} to {to_addresses} from {from_address}')
 
 
-__all__ = ['TemplateMail', 'MailgunDeliveryEngine', 'DeliveryEngineNotInstalled']
+__all__ = ['TemplateMail', 'DeliveryEngineNotInstalled', 'DeliveryNotMade']

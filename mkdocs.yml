@@ -1,0 +1,10 @@
+site_name: TemplateMail
+site_author: Ken Kinder
+theme: readthedocs
+repo_url: https://github.com/kkinder/templatemail
+nav:
+  - Introduction: index.md
+  - Engines: engines.md
+  - Templates: templates.md
+  - Mailgun Transactional Templates: mailgun-templates.md
+  - About: about.md
