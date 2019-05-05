@@ -1,7 +1,5 @@
 ![Build Status](https://travis-ci.org/kkinder/templatemail.svg?branch=master)
 
-![Build Status](https://travis-ci.org/kkinder/templatemail.svg?branch=master)
-
 # Welcome to TemplateMail
 
 TemplateMail is a simple Python library that solves most projects' email templating and delivery needs with minimal hassle. Suppose you want to send a welcome email to a new user using Mailgun:
