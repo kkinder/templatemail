@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Dict
 
 import requests
 
@@ -13,7 +13,7 @@ class MailgunDeliveryEngine(Engine):
         self._requests = requests
 
     def send_simple_message(self, from_address: str, to_addresses: List[str], subject: str, text_body: str = None,
-                            html_body: str = None):
+                            html_body: str = None, headers: Dict = None):
         data = {"from":    from_address,
                 "to":      to_addresses,
                 "subject": subject}
@@ -21,6 +21,9 @@ class MailgunDeliveryEngine(Engine):
             data['text'] = text_body.strip()
         if html_body:
             data['html'] = html_body.strip()
+        if headers:
+            for k, v in headers.items():
+                data['h:{}'.format(k)] = v
         response = self._requests.post(
             f"https://api.mailgun.net/v3/{self.domain_name}/messages",
             auth=("api", self.api_key),

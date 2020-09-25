@@ -126,7 +126,8 @@ class TestTemplateMail(TestCase):
                     engine.send_simple_message(from_address='from@example.com',
                                                to_addresses=['to@example.com'],
                                                subject='Test',
-                                               html_body='HTML Body')
+                                               html_body='HTML Body',
+                                               headers={'Reply-To': 'example@example.com'})
                     engine.send_simple_message(from_address='from@example.com',
                                                to_addresses=['to@example.com'],
                                                subject='Test',

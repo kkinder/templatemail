@@ -70,11 +70,12 @@ If you want to use another email delivery mechanism that isn't Mailgun or SMTP, 
 * param subject: Subject of email
 * param text_body: Text body. None for HTML-only
 * param html_body: HTML body. None for Text-only
+* param headers: Other headers for email
 
 Here's an example of a logging-only backend.
 
 ```python
-from typing import List
+from typing import List, Dict
 
 import logging
 
@@ -88,7 +89,8 @@ class LoggingDeliveryEngine(Engine):
                             to_addresses: List[str],
                             subject: str,
                             text_body: str = None,
-                            html_body: str = None):
+                            html_body: str = None,
+                            headers: Dict = None):
         logging.info(f'Sending an email to {to_addresses} with subject of {subject}')
 
 

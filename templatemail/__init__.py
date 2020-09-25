@@ -60,8 +60,8 @@ class TemplateMail:
         content = render_template.render(*args, **kwargs)
         return content.strip()
 
-    def send_email(self, from_address: str, to_addresses: List[str], template_name: str, dry_run=False, *args,
-                   **kwargs):
+    def send_email(self, from_address: str, to_addresses: List[str], template_name: str, dry_run=False, headers=None,
+                   *args, **kwargs):
         if not (self.delivery_engine or dry_run):
             raise DeliveryEngineNotInstalled
 
@@ -73,7 +73,9 @@ class TemplateMail:
                 to_addresses=to_addresses,
                 subject=rendered_email.subject,
                 text_body=rendered_email.text_body,
-                html_body=rendered_email.html_body)
+                html_body=rendered_email.html_body,
+                headers=headers
+            )
         self.log_email(
             from_address=from_address,
             to_addresses=to_addresses,

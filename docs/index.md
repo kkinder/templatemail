@@ -27,6 +27,7 @@ template_name = 'welcome.html'
 result = mailer.send_email(
     to_addresses=['test@example.com'],
     from_address='from@example.com',
+    headers={'Reply-To': 'someone.else@example.com'},
     template_name=template_name,
     user_name='Ken'
 )

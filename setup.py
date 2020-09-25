@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='templatemail',
-    version='0.2.0',
+    version='1.0.0',
     packages=['templatemail', 'templatemail.engines'],
     package_data={'templatemail': ['templates/*.html', 'templates/mailgun-transactional/*.html']},
     data_files=['README.md'],
