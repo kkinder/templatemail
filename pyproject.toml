@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "templatemail"
+version = "1.1.0"
+description = "Templated Email for Python Projects with Jinja2"
+authors = ["Ken Kinder <ken+github@kkinder.com>"]
+license = "Apache"
+readme = "README.md"
+homepage = "https://github.com/kkinder/templatemail"
+classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Environment :: Console',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Operating System :: MacOS :: MacOS X',
+        'Operating System :: Microsoft :: Windows',
+        'Operating System :: POSIX',
+        'Operating System :: Unix',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Topic :: Communications :: Email',
+        'Topic :: Software Development :: Libraries :: Python Modules'
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+Jinja2 = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

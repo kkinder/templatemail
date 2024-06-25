@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,17 +23,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4aedcf7-c57b-4294-ab71-618677b5b6e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/python-publish.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/templatemail.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/templatemail.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE-mailgun-templates" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE-mailgun-templates" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/engines.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/engines.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mailgun-templates.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mailgun-templates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/templates.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/templates.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templatemail/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templatemail/engines/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/engines/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templatemail/engines/mailgun.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/engines/mailgun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templatemail/engines/smtp.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/engines/smtp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/_render_html_body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/_render_html_body.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/_render_subject.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/_render_subject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/_render_text_body.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/_render_text_body.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/action.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/action.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/alert.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/alert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/billing.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/billing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/standard_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/templatemail/templates/mailgun-transactional/standard_css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_templateMail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_templateMail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_templates/simple_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_templates/simple_template.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +109,22 @@
       </map>
     </option>
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kkinder"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:kkinder/templatemail.git",
+    "accountId": "1950139d-26e1-4aaa-9b7c-3b180bbc6ea5"
+  }
+}]]></component>
   <component name="JupyterTrust" id="24f73ac3-30ba-400c-94d3-cea965424e70" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="1i09lWbXFrguCGGoFlWg4lHsvUy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -83,22 +132,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Unittests in tests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/kkinder/Projects/templatemail",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="PyCoverageOptionsProvider">
     <option name="myUseBundledCoveragePy" value="true" />
   </component>
@@ -116,6 +164,7 @@
   <component name="RunManager" selected="Python tests.Unittests in tests">
     <configuration name="Unittests for test_templateMail.TestTemplateMail.test_basic_template" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -131,6 +180,7 @@
     </configuration>
     <configuration name="Unittests for test_templateMail.TestTemplateMail.test_render" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -146,6 +196,7 @@
     </configuration>
     <configuration name="Unittests for test_templateMail.TestTemplateMail.test_render_action_email" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -161,6 +212,7 @@
     </configuration>
     <configuration name="Unittests for test_templateMail.TestTemplateMail.test_sending" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -180,6 +232,7 @@
     </configuration>
     <configuration name="Unittests for test_templateMail.TestTemplateMail.test_smtp_sending" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -195,6 +248,7 @@
     </configuration>
     <configuration name="Unittests in tests" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -211,6 +265,7 @@
     </configuration>
     <configuration name="Unittests with Browser" type="tests" factoryName="Unittests">
       <module name="templatemail" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -247,6 +302,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -267,7 +330,8 @@
       <workItem from="1556639543634" duration="3805000" />
       <workItem from="1556913586485" duration="3269000" />
       <workItem from="1557067476934" duration="8997000" />
-      <workItem from="1601033795611" duration="1364000" />
+      <workItem from="1601033795611" duration="3483000" />
+      <workItem from="1719313920664" duration="750000" />
     </task>
     <task id="LOCAL-00001" summary="Import into git.">
       <created>1555432298512</created>
@@ -353,22 +417,20 @@
       <option name="project" value="LOCAL" />
       <updated>1557081428187</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Support custom headers.">
+      <created>1601038503960</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601038503960</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -383,7 +445,15 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Import into git." />
@@ -398,40 +468,19 @@
     <MESSAGE value="Version bump." />
     <MESSAGE value="Improve test coverage." />
     <MESSAGE value="Add SMTP support and some docs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add SMTP support and some docs." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="568" y="193" key="SettingsEditor" timestamp="1601038427673">
-      <screen x="69" y="27" width="2491" height="1413" />
-    </state>
-    <state x="568" y="193" key="SettingsEditor/69.27.2491.1413/2560.0.1920.1080@69.27.2491.1413" timestamp="1601038427672" />
-    <state x="1021" y="618" width="587" height="237" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601033813598">
-      <screen x="69" y="27" width="2491" height="1413" />
-    </state>
-    <state x="1021" y="618" width="587" height="237" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/69.27.2491.1413/2560.0.1920.1080@69.27.2491.1413" timestamp="1601033813598" />
-    <state x="882" y="353" width="865" height="762" key="find.popup" timestamp="1601038165006">
-      <screen x="69" y="27" width="2491" height="1413" />
-    </state>
-    <state x="882" y="353" width="865" height="762" key="find.popup/69.27.2491.1413/2560.0.1920.1080@69.27.2491.1413" timestamp="1601038165006" />
-    <state width="900" height="642" key="javadoc.popup" timestamp="1601037959836">
-      <screen x="69" y="27" width="2491" height="1413" />
-    </state>
-    <state width="900" height="642" key="javadoc.popup/69.27.2491.1413/2560.0.1920.1080@69.27.2491.1413" timestamp="1601037959835" />
-    <state x="808" y="25" width="1009" height="1470" key="search.everywhere.popup" timestamp="1601038395306">
-      <screen x="69" y="27" width="2491" height="1413" />
-    </state>
-    <state x="808" y="25" width="1009" height="1470" key="search.everywhere.popup/69.27.2491.1413/2560.0.1920.1080@69.27.2491.1413" timestamp="1601038395306" />
+    <MESSAGE value="Support custom headers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Support custom headers." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_sending_failure.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_sending_failure Coverage Results" MODIFIED="1556639980719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_basic_template.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_basic_template Coverage Results" MODIFIED="1555431129317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_delivery_engine_not_installed.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_delivery_engine_not_installed Coverage Results" MODIFIED="1556639747409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_smtp_sending_content_types.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_smtp_sending_content_types Coverage Results" MODIFIED="1557069178986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_render_action_email.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_render_action_email Coverage Results" MODIFIED="1556290286485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/templatemail$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1719314174598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_sending.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_sending Coverage Results" MODIFIED="1555429365106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_delivery_engine_not_installed.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_delivery_engine_not_installed Coverage Results" MODIFIED="1556639747409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_smtp_sending.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_smtp_sending Coverage Results" MODIFIED="1557069435912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_render.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_render Coverage Results" MODIFIED="1555425959237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/templatemail$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1601038429380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_sending.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_sending Coverage Results" MODIFIED="1555429365106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_basic_template.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_basic_template Coverage Results" MODIFIED="1555431129317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
