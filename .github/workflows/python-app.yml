@@ -26,3 +26,4 @@ jobs:
     - name: Tests
       run: |
         poetry run python -m unittest discover -s tests
+        
