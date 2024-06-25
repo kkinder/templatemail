@@ -22,8 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4aedcf7-c57b-4294-ab71-618677b5b6e6" name="Default Changelist" comment="Update workflow name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e4aedcf7-c57b-4294-ab71-618677b5b6e6" name="Default Changelist" comment="Fix branches">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +292,7 @@
       <workItem from="1556913586485" duration="3269000" />
       <workItem from="1557067476934" duration="8997000" />
       <workItem from="1601033795611" duration="3483000" />
-      <workItem from="1719313920664" duration="1225000" />
+      <workItem from="1719313920664" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="Import into git.">
       <created>1555432298512</created>
@@ -401,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719315078699</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Fix branches">
+      <option name="closed" value="true" />
+      <created>1719315185031</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719315185031</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +456,8 @@
     <MESSAGE value="Support custom headers." />
     <MESSAGE value="Update requirements, use Poetry, add CI" />
     <MESSAGE value="Update workflow name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update workflow name" />
+    <MESSAGE value="Fix branches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix branches" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/templatemail$Unittests_for_test_templateMail_TestTemplateMail_test_sending_failure.coverage" NAME="Unittests for test_templateMail.TestTemplateMail.test_sending_failure Coverage Results" MODIFIED="1556639980719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
